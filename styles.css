@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+}
+h2 {
+    color: #201b1b;
+    text-align: center;
+}
+
+/*----------------------------------------NAV--------------------------------------------------*/
+
+
+
+.navigacija {
+    background: linear-gradient(to right, rgb(30, 30, 30) 25%, rgba(0, 255, 255, 0.2) 50%, rgb(30, 30, 30) 75%);
+    padding: 10px; 
+ }
+
+.navigacija a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    margin-left: 50px;
+}
+
+.navigacija a:hover {
+    color: aqua;
+    font-style: italic;
+}
+
+/*-------------------------------------------HEADER---------------------------------------------------*/
+header {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh;
+}
+   
+.header-content {
+    text-align: left;
+     margin-right: 35rem;
+     margin-bottom: 35rem;
+}
+
+header h1 {
+    font-size: 5rem;
+    color: rgba(57, 255, 20, 1);
+    font-style: italic;
+}
+header p {
+    font-size: 2rem;
+    color:rgb(0, 255, 255);
+    font-style: italic;
+}
+
+.prozor1{
+    position: absolute;
+    top: 48%;
+    height: 100px;
+   
+}
+#private-img{
+    margin-left: 30rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 4px 80px rgba(0, 255, 255, 0.2);
+  
+}
+#busines-img{
+    margin-left: 50rem;
+    box-shadow: 0 4px 80px rgba(0, 255, 255, 0.2);
+}
+
+
+
+/*------------------------------------header img---------------------------------------------------------------*/
+
+.header-img-container {
+    position: relative;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    overflow: hidden;
+
+    
+}
+
+.header-img-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(200px); 
+    z-index: -1;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 100px;
+
+}
+
+
+#years h1, h2{
+    text-align: left;
+    margin-left: 5rem;
+}
+#years h2 {
+    color: aqua;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+
+/*-----------------------------------------section---------------------------------------------------------*/
+
+ section {
+    margin: 20px;
+    padding: 50px;
+    border: 3px solid rgba(0, 255, 255, 0.2);
+    border-radius: 0 100px;
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.2), rgb(30, 30, 30));
+    box-shadow: 0 4px 40px rgba(0, 255, 255, 0.2);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    margin: 30px;
+    color: rgb(197, 187, 187);
+}
+
+#projects {
+    text-align: center; 
+}
+
+#fitness_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+
+#fitness_video video {
+    max-width: 100%; 
+}
+
+/*---------------------FOOTER--------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+
+}
+
+footer P {
+    color: #61dafb;
+    font-size: 20px;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------BUTTON--------------------------------------------------------------------*/
+
+
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #427945; 
+}
+
+a {
+    color: #4CAF50;
+}
